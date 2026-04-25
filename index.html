@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Notes</title>
+</head>
+<body>
+    <header>
+        <h1>Smart Notes</h1>
+        <nav>
+            <button onclick="navigateToAbout()">About Us</button>
+            <button onclick="createNote()">New Note</button>
+        </nav>
+    </header>
+    <main>
+        <div id="note-container"></div>
+        <div>
+            <textarea id="note-input" placeholder="Write your note..."></textarea>
+            <button onclick="saveNote()">Save Note</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
